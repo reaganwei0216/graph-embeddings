@@ -1,4 +1,4 @@
-CALL gds.alpha.node2vec.write({
+call gds.alpha.node2vec.write({
    nodeProjection: "Place",
    relationshipProjection: {
      eroad: {
@@ -6,7 +6,7 @@ CALL gds.alpha.node2vec.write({
        orientation: "UNDIRECTED"
     }
    },
-   embeddingSize: 10,
+   embeddingDimension: 10,
    inOutFactor: 1.0,
    returnFactor: 0.0,
    iterations: 5,
